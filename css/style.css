@@ -1,0 +1,15 @@
+@import "global/global.css";
+@import "global/header.css";
+
+/*main*/
+
+@import "main/home.css";
+@import "main/about.css";
+@import "main/courses.css";
+@import "main/testmonial.css";
+@import "main/course.css";
+
+
+/*footer*/
+
+@import "footer/footer.css";

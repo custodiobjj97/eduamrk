@@ -1,0 +1,33 @@
+.home-bg{
+     width: 100%;
+ height: 100vh;
+ background-image: url('../../img/banner/bradcam2.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.home-bg .home-image img{
+max-width: 90%;
+display: block;
+}
+.home-bg h1{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+
+
+@media (min-width: 920px) {
+    .home-bg{
+        flex-direction: row;
+        gap: 40px;
+    }
+    .home-bg h1{
+        font-size: 2.5rem;
+    }
+}
